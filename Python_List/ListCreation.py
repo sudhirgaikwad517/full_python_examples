@@ -16,3 +16,15 @@ print(list3[len(list3)-4]) #accessing the element by negative index
 print(list3[:2]) # accessing the list element by slicing
 
 
+print(list3[: :2])
+
+#list comprehension 
+
+even_list = [item for item in list3 if isinstance(item,(int , float)) and item % 2 == 0]
+
+print(even_list)
+
+word_with_S = [item for item in list3 if isinstance(item,(str)) and "S" in item]
+
+print(word_with_S)
+
