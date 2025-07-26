@@ -2,7 +2,7 @@
 """
 Created on Sat Jul 26 15:42:40 2025
 
-@author: DELL
+@author: Sudhir Gaikwad
 """
 
 # Stack Using List 
